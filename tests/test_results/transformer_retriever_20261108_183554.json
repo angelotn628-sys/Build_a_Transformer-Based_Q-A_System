@@ -1,0 +1,39 @@
+{
+  "component": "transformer_retriever",
+  "timestamp": "2026-11-08T18:35:54.047668",
+  "total_tests": 5,
+  "passed_tests": 2,
+  "failed_tests": 3,
+  "test_details": [
+    {
+      "test_name": "test_build_index_implementation",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2026-11-08T18:35:50.151742"
+    },
+    {
+      "test_name": "test_initialization",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2026-11-08T18:35:51.005406"
+    },
+    {
+      "test_name": "test_multiple_queries_and_k_values",
+      "passed": false,
+      "error_message": "name 'q' is not defined",
+      "timestamp": "2026-11-08T18:35:51.952781"
+    },
+    {
+      "test_name": "test_retrieve_implementation",
+      "passed": false,
+      "error_message": "name 'q' is not defined",
+      "timestamp": "2026-11-08T18:35:53.148451"
+    },
+    {
+      "test_name": "test_semantic_similarity_quality",
+      "passed": false,
+      "error_message": "name 'q' is not defined",
+      "timestamp": "2026-11-08T18:35:54.047034"
+    }
+  ]
+}

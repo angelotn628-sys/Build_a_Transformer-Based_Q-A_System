@@ -1,0 +1,39 @@
+{
+  "component": "transformer_retriever",
+  "timestamp": "2026-11-08T18:12:33.954839",
+  "total_tests": 5,
+  "passed_tests": 1,
+  "failed_tests": 4,
+  "test_details": [
+    {
+      "test_name": "test_build_index_implementation",
+      "passed": false,
+      "error_message": "name 'model' is not defined",
+      "timestamp": "2026-11-08T18:12:30.238838"
+    },
+    {
+      "test_name": "test_initialization",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2026-11-08T18:12:31.087311"
+    },
+    {
+      "test_name": "test_multiple_queries_and_k_values",
+      "passed": false,
+      "error_message": "name 'model' is not defined",
+      "timestamp": "2026-11-08T18:12:31.952794"
+    },
+    {
+      "test_name": "test_retrieve_implementation",
+      "passed": false,
+      "error_message": "name 'model' is not defined",
+      "timestamp": "2026-11-08T18:12:32.816907"
+    },
+    {
+      "test_name": "test_semantic_similarity_quality",
+      "passed": false,
+      "error_message": "name 'model' is not defined",
+      "timestamp": "2026-11-08T18:12:33.954475"
+    }
+  ]
+}

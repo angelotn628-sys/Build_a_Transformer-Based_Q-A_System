@@ -1,0 +1,39 @@
+{
+  "component": "evaluator",
+  "timestamp": "2026-11-08T22:14:23.227578",
+  "total_tests": 5,
+  "passed_tests": 0,
+  "failed_tests": 5,
+  "test_details": [
+    {
+      "test_name": "test_complete_evaluation_pipeline",
+      "passed": false,
+      "error_message": "slice(None, 1, None)",
+      "timestamp": "2026-11-08T22:14:23.224998"
+    },
+    {
+      "test_name": "test_evaluation_with_different_scenarios",
+      "passed": false,
+      "error_message": "slice(None, 5, None)",
+      "timestamp": "2026-11-08T22:14:23.225559"
+    },
+    {
+      "test_name": "test_mrr_implementation",
+      "passed": false,
+      "error_message": "name 'ranked' is not defined",
+      "timestamp": "2026-11-08T22:14:23.225790"
+    },
+    {
+      "test_name": "test_precision_at_k_implementation",
+      "passed": false,
+      "error_message": "name 'ranked' is not defined",
+      "timestamp": "2026-11-08T22:14:23.226629"
+    },
+    {
+      "test_name": "test_recall_at_k_implementation",
+      "passed": false,
+      "error_message": "slice(None, 3, None)",
+      "timestamp": "2026-11-08T22:14:23.227358"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "component": "word2vec_retriever",
+  "timestamp": "2026-11-15T16:15:15.278913",
+  "total_tests": 5,
+  "passed_tests": 2,
+  "failed_tests": 3,
+  "test_details": [
+    {
+      "test_name": "test_build_index_implementation",
+      "passed": false,
+      "error_message": "unexpectedly None : Corpus texts is None - did you store the corpus_texts?",
+      "timestamp": "2026-11-15T16:15:15.146174"
+    },
+    {
+      "test_name": "test_initialization",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2026-11-15T16:15:15.146566"
+    },
+    {
+      "test_name": "test_multiple_queries_and_k_parameter",
+      "passed": false,
+      "error_message": "Expected 2D array, got 1D array instead:\narray=[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.\n 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.\n 0. 0.].\nReshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.",
+      "timestamp": "2026-11-15T16:15:15.154319"
+    },
+    {
+      "test_name": "test_retrieve_implementation",
+      "passed": false,
+      "error_message": "Expected 2D array, got 1D array instead:\narray=[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.\n 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.\n 0. 0.].\nReshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.",
+      "timestamp": "2026-11-15T16:15:15.272476"
+    },
+    {
+      "test_name": "test_text_to_vector_implementation",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2026-11-15T16:15:15.278806"
+    }
+  ]
+}

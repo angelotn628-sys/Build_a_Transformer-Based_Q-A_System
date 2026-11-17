@@ -1,0 +1,39 @@
+{
+  "component": "evaluator",
+  "timestamp": "2026-11-09T02:10:37.437113",
+  "total_tests": 5,
+  "passed_tests": 0,
+  "failed_tests": 5,
+  "test_details": [
+    {
+      "test_name": "test_complete_evaluation_pipeline",
+      "passed": false,
+      "error_message": "name 'reciprocal_rank' is not defined",
+      "timestamp": "2026-11-09T02:10:37.429047"
+    },
+    {
+      "test_name": "test_evaluation_with_different_scenarios",
+      "passed": false,
+      "error_message": "name 'reciprocal_rank' is not defined",
+      "timestamp": "2026-11-09T02:10:37.431879"
+    },
+    {
+      "test_name": "test_mrr_implementation",
+      "passed": false,
+      "error_message": "name 'reciprocal_rank' is not defined",
+      "timestamp": "2026-11-09T02:10:37.434379"
+    },
+    {
+      "test_name": "test_precision_at_k_implementation",
+      "passed": false,
+      "error_message": "0.0 != 0.6666666666666666 within 3 places (0.6666666666666666 difference) : Expected precision@3=0.6667, got 0.0000",
+      "timestamp": "2026-11-09T02:10:37.436832"
+    },
+    {
+      "test_name": "test_recall_at_k_implementation",
+      "passed": false,
+      "error_message": "0.0 != 0.6666666666666666 within 3 places (0.6666666666666666 difference) : Expected recall@3=0.6667, got 0.0000",
+      "timestamp": "2026-11-09T02:10:37.436977"
+    }
+  ]
+}

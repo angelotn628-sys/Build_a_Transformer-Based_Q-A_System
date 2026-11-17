@@ -1,0 +1,39 @@
+{
+  "component": "bm25_retriever",
+  "timestamp": "2026-11-08T21:56:50.737102",
+  "total_tests": 5,
+  "passed_tests": 1,
+  "failed_tests": 4,
+  "test_details": [
+    {
+      "test_name": "test_build_index_implementation",
+      "passed": false,
+      "error_message": "'float' object is not callable",
+      "timestamp": "2026-11-08T21:56:50.656123"
+    },
+    {
+      "test_name": "test_initialization",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2026-11-08T21:56:50.658280"
+    },
+    {
+      "test_name": "test_k_parameter_functionality",
+      "passed": false,
+      "error_message": "'float' object is not callable",
+      "timestamp": "2026-11-08T21:56:50.678868"
+    },
+    {
+      "test_name": "test_multiple_queries",
+      "passed": false,
+      "error_message": "'float' object is not callable",
+      "timestamp": "2026-11-08T21:56:50.713617"
+    },
+    {
+      "test_name": "test_retrieve_implementation",
+      "passed": false,
+      "error_message": "'float' object is not callable",
+      "timestamp": "2026-11-08T21:56:50.735940"
+    }
+  ]
+}

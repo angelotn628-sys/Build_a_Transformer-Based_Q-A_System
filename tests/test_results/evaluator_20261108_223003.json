@@ -1,0 +1,39 @@
+{
+  "component": "evaluator",
+  "timestamp": "2026-11-08T22:30:03.723101",
+  "total_tests": 5,
+  "passed_tests": 0,
+  "failed_tests": 5,
+  "test_details": [
+    {
+      "test_name": "test_complete_evaluation_pipeline",
+      "passed": false,
+      "error_message": "slice(None, 1, None)",
+      "timestamp": "2026-11-08T22:30:03.721439"
+    },
+    {
+      "test_name": "test_evaluation_with_different_scenarios",
+      "passed": false,
+      "error_message": "slice(None, 5, None)",
+      "timestamp": "2026-11-08T22:30:03.722068"
+    },
+    {
+      "test_name": "test_mrr_implementation",
+      "passed": false,
+      "error_message": "cannot unpack non-iterable int object",
+      "timestamp": "2026-11-08T22:30:03.722299"
+    },
+    {
+      "test_name": "test_precision_at_k_implementation",
+      "passed": false,
+      "error_message": "slice(None, 3, None)",
+      "timestamp": "2026-11-08T22:30:03.722529"
+    },
+    {
+      "test_name": "test_recall_at_k_implementation",
+      "passed": false,
+      "error_message": "slice(None, 3, None)",
+      "timestamp": "2026-11-08T22:30:03.722754"
+    }
+  ]
+}

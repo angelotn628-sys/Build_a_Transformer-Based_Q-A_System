@@ -1,0 +1,39 @@
+{
+  "component": "transformer_retriever",
+  "timestamp": "2026-11-08T18:32:12.748023",
+  "total_tests": 5,
+  "passed_tests": 2,
+  "failed_tests": 3,
+  "test_details": [
+    {
+      "test_name": "test_build_index_implementation",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2026-11-08T18:32:08.848017"
+    },
+    {
+      "test_name": "test_initialization",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2026-11-08T18:32:09.715091"
+    },
+    {
+      "test_name": "test_multiple_queries_and_k_values",
+      "passed": false,
+      "error_message": "The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()",
+      "timestamp": "2026-11-08T18:32:10.711727"
+    },
+    {
+      "test_name": "test_retrieve_implementation",
+      "passed": false,
+      "error_message": "The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()",
+      "timestamp": "2026-11-08T18:32:11.653249"
+    },
+    {
+      "test_name": "test_semantic_similarity_quality",
+      "passed": false,
+      "error_message": "The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()",
+      "timestamp": "2026-11-08T18:32:12.747556"
+    }
+  ]
+}

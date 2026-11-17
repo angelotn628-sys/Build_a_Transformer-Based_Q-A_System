@@ -1,0 +1,39 @@
+{
+  "component": "evaluator",
+  "timestamp": "2026-11-09T02:20:05.535435",
+  "total_tests": 5,
+  "passed_tests": 4,
+  "failed_tests": 1,
+  "test_details": [
+    {
+      "test_name": "test_complete_evaluation_pipeline",
+      "passed": false,
+      "error_message": "type object 'IRMetrics' has no attribute 'evaluate_retrieval'",
+      "timestamp": "2026-11-09T02:20:05.534351"
+    },
+    {
+      "test_name": "test_evaluation_with_different_scenarios",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2026-11-09T02:20:05.535111"
+    },
+    {
+      "test_name": "test_mrr_implementation",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2026-11-09T02:20:05.535219"
+    },
+    {
+      "test_name": "test_precision_at_k_implementation",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2026-11-09T02:20:05.535299"
+    },
+    {
+      "test_name": "test_recall_at_k_implementation",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2026-11-09T02:20:05.535372"
+    }
+  ]
+}

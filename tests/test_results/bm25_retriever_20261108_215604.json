@@ -1,0 +1,39 @@
+{
+  "component": "bm25_retriever",
+  "timestamp": "2026-11-08T21:56:04.839631",
+  "total_tests": 5,
+  "passed_tests": 1,
+  "failed_tests": 4,
+  "test_details": [
+    {
+      "test_name": "test_build_index_implementation",
+      "passed": false,
+      "error_message": "name 'k1' is not defined",
+      "timestamp": "2026-11-08T21:56:04.838162"
+    },
+    {
+      "test_name": "test_initialization",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2026-11-08T21:56:04.838884"
+    },
+    {
+      "test_name": "test_k_parameter_functionality",
+      "passed": false,
+      "error_message": "name 'k1' is not defined",
+      "timestamp": "2026-11-08T21:56:04.838959"
+    },
+    {
+      "test_name": "test_multiple_queries",
+      "passed": false,
+      "error_message": "name 'k1' is not defined",
+      "timestamp": "2026-11-08T21:56:04.839202"
+    },
+    {
+      "test_name": "test_retrieve_implementation",
+      "passed": false,
+      "error_message": "name 'k1' is not defined",
+      "timestamp": "2026-11-08T21:56:04.839394"
+    }
+  ]
+}

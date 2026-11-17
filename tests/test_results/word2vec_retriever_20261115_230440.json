@@ -1,0 +1,39 @@
+{
+  "component": "word2vec_retriever",
+  "timestamp": "2026-11-15T23:04:40.655990",
+  "total_tests": 5,
+  "passed_tests": 4,
+  "failed_tests": 1,
+  "test_details": [
+    {
+      "test_name": "test_build_index_implementation",
+      "passed": false,
+      "error_message": "Lists differ: [['machine', 'learning', 'algorithms', 'au[391 chars]es']] != ['Machine learning algorithms can automati[340 chars]ies']\n\nFirst differing element 0:\n['machine', 'learning', 'algorithms', 'automatically', 'improve', 'experience']\n'Machine learning algorithms can automatically improve through experience'\n\nDiff is 980 characters long. Set self.maxDiff to None to see it.",
+      "timestamp": "2026-11-15T23:04:40.652403"
+    },
+    {
+      "test_name": "test_initialization",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2026-11-15T23:04:40.652961"
+    },
+    {
+      "test_name": "test_multiple_queries_and_k_parameter",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2026-11-15T23:04:40.654829"
+    },
+    {
+      "test_name": "test_retrieve_implementation",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2026-11-15T23:04:40.655563"
+    },
+    {
+      "test_name": "test_text_to_vector_implementation",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2026-11-15T23:04:40.655918"
+    }
+  ]
+}

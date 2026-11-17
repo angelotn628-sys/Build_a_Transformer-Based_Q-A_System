@@ -1,0 +1,39 @@
+{
+  "component": "word2vec_retriever",
+  "timestamp": "2026-11-15T16:09:06.955007",
+  "total_tests": 5,
+  "passed_tests": 2,
+  "failed_tests": 3,
+  "test_details": [
+    {
+      "test_name": "test_build_index_implementation",
+      "passed": false,
+      "error_message": "unexpectedly None : Corpus texts is None - did you store the corpus_texts?",
+      "timestamp": "2026-11-15T16:09:06.936652"
+    },
+    {
+      "test_name": "test_initialization",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2026-11-15T16:09:06.937078"
+    },
+    {
+      "test_name": "test_multiple_queries_and_k_parameter",
+      "passed": false,
+      "error_message": "name '_text_to_vector' is not defined",
+      "timestamp": "2026-11-15T16:09:06.943182"
+    },
+    {
+      "test_name": "test_retrieve_implementation",
+      "passed": false,
+      "error_message": "name '_text_to_vector' is not defined",
+      "timestamp": "2026-11-15T16:09:06.949527"
+    },
+    {
+      "test_name": "test_text_to_vector_implementation",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2026-11-15T16:09:06.954924"
+    }
+  ]
+}

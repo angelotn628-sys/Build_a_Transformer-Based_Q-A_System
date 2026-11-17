@@ -1,0 +1,39 @@
+{
+  "component": "evaluator",
+  "timestamp": "2026-11-09T02:11:38.032492",
+  "total_tests": 5,
+  "passed_tests": 0,
+  "failed_tests": 5,
+  "test_details": [
+    {
+      "test_name": "test_complete_evaluation_pipeline",
+      "passed": false,
+      "error_message": "name 'r' is not defined",
+      "timestamp": "2026-11-09T02:11:38.030481"
+    },
+    {
+      "test_name": "test_evaluation_with_different_scenarios",
+      "passed": false,
+      "error_message": "name 'r' is not defined",
+      "timestamp": "2026-11-09T02:11:38.031225"
+    },
+    {
+      "test_name": "test_mrr_implementation",
+      "passed": false,
+      "error_message": "name 'r' is not defined",
+      "timestamp": "2026-11-09T02:11:38.031588"
+    },
+    {
+      "test_name": "test_precision_at_k_implementation",
+      "passed": false,
+      "error_message": "0.0 != 0.6666666666666666 within 3 places (0.6666666666666666 difference) : Expected precision@3=0.6667, got 0.0000",
+      "timestamp": "2026-11-09T02:11:38.032058"
+    },
+    {
+      "test_name": "test_recall_at_k_implementation",
+      "passed": false,
+      "error_message": "0.0 != 0.6666666666666666 within 3 places (0.6666666666666666 difference) : Expected recall@3=0.6667, got 0.0000",
+      "timestamp": "2026-11-09T02:11:38.032233"
+    }
+  ]
+}

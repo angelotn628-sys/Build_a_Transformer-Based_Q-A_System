@@ -1,0 +1,39 @@
+{
+  "component": "transformer_retriever",
+  "timestamp": "2026-11-08T18:34:50.504559",
+  "total_tests": 5,
+  "passed_tests": 2,
+  "failed_tests": 3,
+  "test_details": [
+    {
+      "test_name": "test_build_index_implementation",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2026-11-08T18:34:46.857284"
+    },
+    {
+      "test_name": "test_initialization",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2026-11-08T18:34:47.720632"
+    },
+    {
+      "test_name": "test_multiple_queries_and_k_values",
+      "passed": false,
+      "error_message": "Incompatible dimension for X and Y matrices: X.shape[1] == 1152 while Y.shape[1] == 384",
+      "timestamp": "2026-11-08T18:34:48.650259"
+    },
+    {
+      "test_name": "test_retrieve_implementation",
+      "passed": false,
+      "error_message": "unhashable type: 'list'",
+      "timestamp": "2026-11-08T18:34:49.653210"
+    },
+    {
+      "test_name": "test_semantic_similarity_quality",
+      "passed": false,
+      "error_message": "unhashable type: 'list'",
+      "timestamp": "2026-11-08T18:34:50.504170"
+    }
+  ]
+}

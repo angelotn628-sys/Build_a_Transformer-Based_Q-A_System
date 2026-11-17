@@ -1,0 +1,39 @@
+{
+  "component": "word2vec_retriever",
+  "timestamp": "2026-11-15T22:55:21.843136",
+  "total_tests": 5,
+  "passed_tests": 1,
+  "failed_tests": 4,
+  "test_details": [
+    {
+      "test_name": "test_build_index_implementation",
+      "passed": false,
+      "error_message": "name 'documents' is not defined",
+      "timestamp": "2026-11-15T22:55:21.835906"
+    },
+    {
+      "test_name": "test_initialization",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2026-11-15T22:55:21.838562"
+    },
+    {
+      "test_name": "test_multiple_queries_and_k_parameter",
+      "passed": false,
+      "error_message": "name 'documents' is not defined",
+      "timestamp": "2026-11-15T22:55:21.838649"
+    },
+    {
+      "test_name": "test_retrieve_implementation",
+      "passed": false,
+      "error_message": "name 'documents' is not defined",
+      "timestamp": "2026-11-15T22:55:21.840188"
+    },
+    {
+      "test_name": "test_text_to_vector_implementation",
+      "passed": false,
+      "error_message": "name 'documents' is not defined",
+      "timestamp": "2026-11-15T22:55:21.841678"
+    }
+  ]
+}

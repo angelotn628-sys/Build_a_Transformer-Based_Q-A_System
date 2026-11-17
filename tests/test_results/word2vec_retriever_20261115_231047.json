@@ -1,0 +1,39 @@
+{
+  "component": "word2vec_retriever",
+  "timestamp": "2026-11-15T23:10:47.294037",
+  "total_tests": 5,
+  "passed_tests": 3,
+  "failed_tests": 2,
+  "test_details": [
+    {
+      "test_name": "test_build_index_implementation",
+      "passed": false,
+      "error_message": "100 != 50",
+      "timestamp": "2026-11-15T23:10:47.092834"
+    },
+    {
+      "test_name": "test_initialization",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2026-11-15T23:10:47.093392"
+    },
+    {
+      "test_name": "test_multiple_queries_and_k_parameter",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2026-11-15T23:10:47.203725"
+    },
+    {
+      "test_name": "test_retrieve_implementation",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2026-11-15T23:10:47.248734"
+    },
+    {
+      "test_name": "test_text_to_vector_implementation",
+      "passed": false,
+      "error_message": "100 != 50",
+      "timestamp": "2026-11-15T23:10:47.293696"
+    }
+  ]
+}

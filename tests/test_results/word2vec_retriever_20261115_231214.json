@@ -1,0 +1,39 @@
+{
+  "component": "word2vec_retriever",
+  "timestamp": "2026-11-15T23:12:14.207925",
+  "total_tests": 5,
+  "passed_tests": 1,
+  "failed_tests": 4,
+  "test_details": [
+    {
+      "test_name": "test_build_index_implementation",
+      "passed": false,
+      "error_message": "'Word2VecRetriever' object has no attribute '_embed'",
+      "timestamp": "2026-11-15T23:12:14.075100"
+    },
+    {
+      "test_name": "test_initialization",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2026-11-15T23:12:14.076118"
+    },
+    {
+      "test_name": "test_multiple_queries_and_k_parameter",
+      "passed": false,
+      "error_message": "'Word2VecRetriever' object has no attribute '_embed'",
+      "timestamp": "2026-11-15T23:12:14.120277"
+    },
+    {
+      "test_name": "test_retrieve_implementation",
+      "passed": false,
+      "error_message": "'Word2VecRetriever' object has no attribute '_embed'",
+      "timestamp": "2026-11-15T23:12:14.165821"
+    },
+    {
+      "test_name": "test_text_to_vector_implementation",
+      "passed": false,
+      "error_message": "'Word2VecRetriever' object has no attribute '_embed'",
+      "timestamp": "2026-11-15T23:12:14.207428"
+    }
+  ]
+}

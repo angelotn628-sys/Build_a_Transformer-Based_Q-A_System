@@ -1,0 +1,39 @@
+{
+  "component": "bm25_retriever",
+  "timestamp": "2026-11-08T18:11:27.306141",
+  "total_tests": 5,
+  "passed_tests": 1,
+  "failed_tests": 4,
+  "test_details": [
+    {
+      "test_name": "test_build_index_implementation",
+      "passed": false,
+      "error_message": "name 'tokenized_simple' is not defined",
+      "timestamp": "2026-11-08T18:11:27.297817"
+    },
+    {
+      "test_name": "test_initialization",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2026-11-08T18:11:27.300384"
+    },
+    {
+      "test_name": "test_k_parameter_functionality",
+      "passed": false,
+      "error_message": "name 'tokenized_simple' is not defined",
+      "timestamp": "2026-11-08T18:11:27.300461"
+    },
+    {
+      "test_name": "test_multiple_queries",
+      "passed": false,
+      "error_message": "name 'tokenized_simple' is not defined",
+      "timestamp": "2026-11-08T18:11:27.302374"
+    },
+    {
+      "test_name": "test_retrieve_implementation",
+      "passed": false,
+      "error_message": "name 'tokenized_simple' is not defined",
+      "timestamp": "2026-11-08T18:11:27.304267"
+    }
+  ]
+}

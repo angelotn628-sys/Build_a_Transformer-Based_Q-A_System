@@ -1,0 +1,39 @@
+{
+  "component": "word2vec_retriever",
+  "timestamp": "2026-11-15T16:09:49.036164",
+  "total_tests": 5,
+  "passed_tests": 2,
+  "failed_tests": 3,
+  "test_details": [
+    {
+      "test_name": "test_build_index_implementation",
+      "passed": false,
+      "error_message": "unexpectedly None : Corpus texts is None - did you store the corpus_texts?",
+      "timestamp": "2026-11-15T16:09:49.015680"
+    },
+    {
+      "test_name": "test_initialization",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2026-11-15T16:09:49.016054"
+    },
+    {
+      "test_name": "test_multiple_queries_and_k_parameter",
+      "passed": false,
+      "error_message": "Word2VecRetriever._text_to_vector() takes 2 positional arguments but 3 were given",
+      "timestamp": "2026-11-15T16:09:49.022952"
+    },
+    {
+      "test_name": "test_retrieve_implementation",
+      "passed": false,
+      "error_message": "Word2VecRetriever._text_to_vector() takes 2 positional arguments but 3 were given",
+      "timestamp": "2026-11-15T16:09:49.029858"
+    },
+    {
+      "test_name": "test_text_to_vector_implementation",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2026-11-15T16:09:49.036077"
+    }
+  ]
+}

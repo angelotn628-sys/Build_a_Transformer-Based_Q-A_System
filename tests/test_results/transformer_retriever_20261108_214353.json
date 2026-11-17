@@ -1,0 +1,39 @@
+{
+  "component": "transformer_retriever",
+  "timestamp": "2026-11-08T21:43:53.296602",
+  "total_tests": 5,
+  "passed_tests": 2,
+  "failed_tests": 3,
+  "test_details": [
+    {
+      "test_name": "test_build_index_implementation",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2026-11-08T21:43:49.313443"
+    },
+    {
+      "test_name": "test_initialization",
+      "passed": true,
+      "error_message": null,
+      "timestamp": "2026-11-08T21:43:50.188379"
+    },
+    {
+      "test_name": "test_multiple_queries_and_k_values",
+      "passed": false,
+      "error_message": "unhashable type: 'numpy.ndarray'",
+      "timestamp": "2026-11-08T21:43:51.186299"
+    },
+    {
+      "test_name": "test_retrieve_implementation",
+      "passed": false,
+      "error_message": "unhashable type: 'numpy.ndarray'",
+      "timestamp": "2026-11-08T21:43:52.384278"
+    },
+    {
+      "test_name": "test_semantic_similarity_quality",
+      "passed": false,
+      "error_message": "unhashable type: 'numpy.ndarray'",
+      "timestamp": "2026-11-08T21:43:53.296143"
+    }
+  ]
+}
